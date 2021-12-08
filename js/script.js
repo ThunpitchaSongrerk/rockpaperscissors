@@ -67,6 +67,7 @@ $(".play").click(function() {
   } else {
     $(".result").append(`<p>Your input is invalid, try again.<p>`);
   }
+  
   for (totalWins = 0; totalWins <= totalGames;){
       $(".wins").text("You have won" + totalWins + "times");
       totalWins = totalWins +1;
@@ -78,6 +79,7 @@ $(".play").click(function() {
   for (totalTies = 0; totalTies <= totalGames; ){
     $(".ties").text("You have tied" + totalTies + "times");
     totalTies = totalTies +1;
+//     move the 
 }
   
   
